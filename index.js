@@ -20,6 +20,6 @@ const driversByRevenue = function (arr) {
 
 const driversByName = function (arr) {
   return arr.slice().sort(function (a, b) {
-    return a.localecompare(name)
+    return a.name.localeCompare(b.name)
   })
 }
