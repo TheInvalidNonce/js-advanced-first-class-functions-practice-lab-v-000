@@ -29,3 +29,7 @@ const totalRevenue = function (arr) {
     return agg += el.revenue
   }, 0)
 }
+
+const averageRevenue = function (arr) {
+  return totalRevenue(arr)/arr.length
+}
