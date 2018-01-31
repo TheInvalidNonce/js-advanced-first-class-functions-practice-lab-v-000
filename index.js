@@ -1,5 +1,9 @@
 const logDriverNames = function (arr) {
-  arr.forEach(function (el) {
+  return arr.forEach(function (el) {
     console.log(el.name)
   })
+}
+
+const logDriversByHomeTown = function (arr, location) {
+  return arr.filter(function)
 }
