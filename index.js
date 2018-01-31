@@ -6,6 +6,6 @@ const logDriverNames = function (arr) {
 
 const logDriversByHometown = function (arr, location) {
   return arr.filter(function (el) {
-    return el.hometown === location
+    console.log(el.hometown === location)
   })
 }
